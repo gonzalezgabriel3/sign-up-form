@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* border: 5px solid black; */
+}
+div.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.logo {
+    flex:1;    
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    background-image: url("img/halie-west-25xggax4bSA-unsplash.jpg");
+    width: 100%;
+    background-size: 100% 100%;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.logo-here {
+    color: white;
+    font-size: 2rem;
+    padding: 1.5em;
+    text-align: center;    
+    height: 10rem;
+    width: 100%;
+    background-color: rgba(12,13,14, .6);
+    margin-bottom: 27rem;
+    /* background-image: url("img/7.jpg");     */
+    background-size: 100% 100%;
+    
+}
+.content {
+    flex:2;    
+    background-color: hotpink;
+    display: flex;
+    align-items: center;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40rem;
+    width: 100%;
+    background-color:bisque;
+    font-size: 1.5em;
+    /* padding: 1rem; */
+    
+}
+.form-text {
+    padding: 2.5rem 1rem;
+}
+form {
+    box-shadow: 0 5px 10px rgb(179, 176, 176);
+    padding: 1rem;
+}
+.form-wrapper{
+    display: flex;
+    padding: 0 0 3rem 0;
+    
+}
+.form-column {
+    display:flex;
+    flex-direction: column;
+}
+.form-item {
+    margin-right: 2rem;
+}
+.form-item > p + input {
+    width: 20rem;
+    height: 2rem;
+}
+button {
+    font-size: 1.3rem;
+    padding: 10px;
+    border-radius: 8%;
+    background-color: rgb(51, 77, 51);
+    color: white;
+}
