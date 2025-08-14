@@ -3,64 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">   
+
 </head>
 <body>
     <div class="container">
         <div class="logo">
-            <div class="logo-here">LOGO HERE</div>
+            <div class="logo-here">
+                <img src="img/image.png">
+                <p>ODIN</p>
+            </div>
+            <p class="img-credit">Photo by <a href="https://unsplash.com/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Halie West</a> on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+      </p>
         </div>
         <div class="content">
             <div class="form-container">
-                <p class="form-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolor nulla explicabo omnis totam. Illum eius dolorem, expedita itaque quod necessitatibus ab sed error, modi dolor similique repellendus enim velit.</p>
+                <div class="form-text">
+                    <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <span class="italic">now</span> to get started.</p>
+                    <p>You <span class="italic">know</span> you want to.</p>
+                </div>
                 
                 <form id="form" action="" method="get">
-                    <h2>Let's do this!</h2>
+                    <p>Let's do this!</p>
                     <div class="form-wrapper">
                         
                         <div class="form-column">
                             <div class="form-item">
-                                <p><label for="firstName">First Name:</label></p>
+                                <p><label for="firstName">FIRST NAME</label></p>
                                 <input type="text" name="firstName" id="firstName">
                             </div>
 
                             <div class="form-item">
-                                <p><label for="email">Email:</label></p>
+                                <p><label for="email">EMAIL</label></p>
                                 <input type="email" name="email" id="email">
                             </div>
 
                             <div class="form-item">
-                                <p><label for="password">Password:</label></p>
-                                <input type="password" name="password" id="password">
+                                <p><label for="password">PASSWORD</label></p>
+                                <input required type="password" name="password" id="password">
                             </div>                      
                                                                     
                         </div>
 
                         <div class="form-column">
                             <div class="form-item">
-                                <p><label for="lastName">Last Name:</label></p>
+                                <p><label for="lastName">LAST NAME</label></p>
                                 <input type="text" name="lastName" id="lastName">
                             </div>  
 
                             <div class="form-item">
-                                <p><label for="phone">Phone Number:</label></p>
-                                <input type="tel" name="phone" id="phone">
+                                <p><label for="phone">PHONE NUMBER</label></p>
+                                <input type="number" name="phone" id="phone">
                             </div>
 
                             <div class="form-item">
-                                <p><label for="confirmPassword">Confirm Password:</label></p>
-                                <input type="password" name="confirmPassword" id="confirmPassword">
+                                <p><label for="confirmPassword">CONFIRM PASSWORD</label></p>
+                                <input required type="password" name="confirmPassword" id="confirmPassword">
                             </div>
                         </div>
-                    </div>
-                    
-
-                    
-                    
-                    <button type="submit" form="form">Create Account</button>
+                    </div>           
+                
                 </form>
                 
+                <button type="submit" form="form">Create Account</button>
+                <p>Already have an account? <a href="#">Log in</a></p>
             </div>
         </div>
     </div>
